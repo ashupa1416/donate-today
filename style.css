@@ -15,8 +15,7 @@ h1 {
 }
 
 .h3-size {
-    font-size: 30px;
-    text-decoration: underline;
+    font-size: 35px;
 }
 
 
@@ -29,32 +28,35 @@ h1 {
     font-size: 17px;
     padding-bottom: 2px;
     padding-top: 20px;
+    color: #000;
 }
 
 
 .top-banner {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(images/donation5.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/donation5.jpg);
     background-size: cover;
-    display: block;
     height: 100vh;
-
 }
+
 
 .container {
-    display: block;
     text-align: center;
-    background-repeat: no-repeat;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 60px;
 }
 
-.container1 h1 {
+.container h1,
+p,
+h2 {
     color: white;
 }
 
-.container1 p {
-    color: white;
+.black {
+    color: #000;
+}
+
+.bg {
+    background-color: #a2a5a9;
 }
 
 .link-button {
@@ -62,7 +64,7 @@ h1 {
     background-color: orange;
     padding: 15px 30px;
     border-radius: 5px;
-    background-image: linear-gradient(red, tomato);
+    background-image: linear-gradient(red, rgb(199, 91, 73));
     color: #fff;
     font-weight: 700;
 }
@@ -131,10 +133,10 @@ input {
     width: 40%;
     height: 400px;
     padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 30px;
     border-radius: 10px;
-    text-align: justify;
+    text-align: left;
 
 }
 
@@ -162,9 +164,7 @@ input {
     background-color: rgb(241, 221, 244);
 }
 
-.dp {
-    background-image: linear-gradient(#bdc3c7, #2c3e50);
-}
+
 
 .gap {
     margin-left: 30px;
